@@ -6,7 +6,11 @@
 
 <p><%= project.description %></p>
 
-<a href="<%= project.link %>" target="_blank">View on GitHub</a>
+<% if (project.link && project.link !== "null") { %>
+      <a class="btn btn-secondary" href="<%= project.link %>" target="_blank">
+          View GitHub Repository
+      </a>
+<% } %>
 
 <p><%- project.content %></p>
 
