@@ -73,3 +73,9 @@ nav a {
 .btn-secondary:hover {
   background-color: #475569;
 }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
