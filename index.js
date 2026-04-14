@@ -5,7 +5,7 @@ const fs = require("fs");
 console.log("Starting app...");
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // Middleware
 app.use(express.static(path.join(__dirname, "public")));
