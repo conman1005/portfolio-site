@@ -86,7 +86,10 @@ nav a {
     padding: 15px;
   }
   .text-content {
-    max-width: 100%;
+    max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 16px;
   }
 }
 
@@ -95,6 +98,9 @@ nav a {
     padding: 12px;
   }
   .text-content {
-    max-width: 100%;
+    max-width: 445px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 16px;
   }
 }
